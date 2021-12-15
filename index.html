@@ -1,5 +1,17 @@
 <!DOCTYPE html>
 <html>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Snowstorm/20131208/snowstorm-min.js"></script>
+<script>
+snowStorm.snowColor = '#6699cc'; //give the snowflakes another colour
+snowStorm.flakesMaxActive = 96; //the maximum number of active snow flakes on the screen, lowering this may increase performance
+snowStorm.followMouse = true; //the snow will fall in a certain direction based on the position of your mouse
+snowStorm.snowCharacter = '★'; //change the flake to a specific character
+snowStorm.snowStick = true; //if true, the snow will stick to the bottom of the screen
+snowStorm.animationInterval = 30;
+snowStorm.excludeMobile = false;
+snowStorm.freezeOnBlur = true;
+snowStorm.usePositionFixed = true;
+</script>
 <head>
 <style>
 h1 {text-align: center;}
