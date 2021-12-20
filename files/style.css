@@ -1,6 +1,6 @@
 .container{
     top: 0;
-    background: url(img/background.jpg) no-repeat fixed;
+    background: url(img/ghdfh.jpg) no-repeat fixed;
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -16,7 +16,7 @@
     display: inline-block;
     width: 40px;
     height: 40px;
-    background: url(img/snowflake-small.png);
+    background: url(https://jannik2912.github.io/test/files/img/snowflake-small.png);
     margin: -280px 40px 54px 34px;
 
     -webkit-animation: fallingLeaves 10s infinite linear;
